@@ -1,0 +1,25 @@
+
+#navbar .dropdown-toggle::after {
+    content: unset;
+}
+  
+.menu-burger {
+    width: 40px;
+}
+
+#drop {
+    background-color: var(--secondary-color);
+    border: none;
+    margin-left: 50%;
+    margin-top: 10px;
+}
+
+.dropdown-menu.show {
+    margin-left: -70px;
+}
+
+.dropdown-item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 8px;
+}

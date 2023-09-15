@@ -1,0 +1,167 @@
+.navigasi {
+    margin-top: 8%;
+    margin-left: 7%;
+    width: 130px;
+}
+
+.sub-nav-prof {
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+}
+
+.sub-nav-pass {
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+}
+
+.line-style {
+    background-color: #000;
+    border: none;
+    height: 2px;
+    margin-top: 1px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.img-profile {
+    border: 1px solid #ccc;
+    background-color: #ccc;
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 240px;
+    height: 240px;
+}
+
+.css-img-profile {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    margin-top: 5%;
+    margin-left: 5%;
+    box-shadow: 0px 0px 0px 2px #fff;
+}
+
+.form-input-profile {
+    margin-left: 4%;
+    margin-top: 20x;
+}
+
+.text {
+    text-align: justify;
+}
+
+.form-input-profile #formInput {
+    width: 93.5%;
+}
+
+.label {
+    color: #000;
+    font-weight: bold;
+}
+
+.btn.btn-primary.btn-submit {
+    background-color: #38A5AD;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    width: 100px;
+    text-align: center;
+}
+
+.btn.btn-primary.btn-submit:hover {
+    background-color: #5ac0c7;
+}
+
+.btn.btn-primary.btn-upload-foto {
+    border-radius: 0%;
+    border: none;
+    padding: 6px 12px;
+    background-color: #EFD100;
+    text-align: center;
+    width: 120px;
+    font-weight: bold;
+}
+
+.btn.btn-primary.btn-upload-foto:hover {
+    background-color: #f7f03b;
+}
+
+.text-info p {
+    color: #000;
+}
+
+.sub-nav-prof .active {
+    color: #fff !important;
+    background-color: #38A5AD !important;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.sub-nav-pass .active {
+    color: #fff !important;
+    background-color: #38A5AD !important;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.change-password {
+    margin-left: 9.5%;
+    width: 50%;
+}
+
+@media (max-width: 992px) {
+    .navigasi {
+        margin-top: 20%;
+    }
+
+    .sub-nav-prof {
+        margin-left: 10px;
+    }
+
+    .sub-nav-pass {
+        margin-left: 8px;
+    }
+
+    .line-style {
+        margin-top: 15px;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    .form-input-profile {
+        margin-left: 24px;
+    }
+
+    .sub-nav-prof #action-profile {
+        margin-left: 10px;
+    }
+
+    .sub-nav-pass #action-password {
+        margin-left: 10px;
+    }
+
+    /* .img-profile {
+        width: 1040px;
+    } */
+
+    .btn.btn-primary.btn-upload-foto {
+        margin-top: 10px;
+        margin-left: -12px;
+    }
+
+    .text-info {
+        margin-left: -12px;
+    }
+}

@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.text-regis {
+    width: 300px;
+    font-size: small;
+    margin-left: 3.8%;
+    margin-bottom: 5%;
+}
+
+figure.bg1 {
+    background-image: url(../assets/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.style-img {
+    width: 60%;
+}
+
+
+
+@media (min-width: 992px) {
+
+    /* Desktop */
+    .regis-body {
+        margin-top: 100px;
+    }
+
+    figure.bg1 {
+        position: absolute;
+        top: 0px;
+        right: 700px;
+        bottom: -90px;
+        left: 0px;
+        padding: 0;
+        text-align: justify;
+    }
+
+    .style-img {
+        margin-top: 250px;
+        width: 80vh;
+    }
+
+}
+
+@media (min-width: 1000px) {
+
+    /* Desktop */
+    .regis-body {
+        margin-top: 25%;
+        margin-left: 18%;
+    }
+
+    figure.bg1 {
+        position: absolute;
+        top: 0;
+        right: 700px;
+        bottom: -90px;
+        left: 0;
+        padding: 0;
+        text-align: justify;
+        width: 50%;
+        height: 100%;
+    }
+
+    #img-style {
+        margin-top: 250px;
+        margin-left: 7rem;
+        width: 70vh;
+    }
+
+}
+
+
+.regis-body h3 {
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+#formInput {
+    border: solid;
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+#term {
+    text-align: center;
+    font-weight: bold;
+    font-size: smaller;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.regis-body #button-masuk {
+    color: #ffffff;
+    background: #38A5AD;
+    width: 328px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#regis-section {
+    margin-left: 15%;
+    margin-top: 17%;
+}
+
+.btn-primary:not([disabled]):not(.disabled).active #button-masuk,
+.btn-primary:not([disabled]):not(.disabled):active #button-masuk,
+.btn-primary:not([disabled]):not(.disabled).hover #button-masuk,
+.btn-primary:not([disabled]):not(.disabled)#button-masuk:hover {
+    color: #38A5AD !important;
+    background-color: #ffffff !important;
+    border-color: #ffffff !important;
+}
+
+.btn-primary:not([disabled]):not(.disabled).active .btn-google,
+.btn-primary:not([disabled]):not(.disabled):active .btn-google,
+.btn-primary:not([disabled]):not(.disabled).hover .btn-google,
+.btn-primary:not([disabled]):not(.disabled).btn-google:hover {
+    color: #fff !important;
+    background-color: #000 !important;
+    border-color: #000 !important;
+}
+
+#formInputPass {
+    border: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    width: 215%;
+}

@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#teks-peserta {
+    font-weight: 700;
+    color: #38A5AD;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: large;
+}
+
+.btn-tambah {
+    width: 15%;
+    height: 6%;
+    padding: 2px;
+    border-width: 1px;
+    border-radius: 8px;
+    background-color: transparent;
+    margin-top: 10px;
+    color: #38A5AD;
+    margin-bottom: 10px;
+    /* margin-left: 5px; */
+}
+
+.add-img {
+    margin-left: -10px;
+    margin-right: 5px;
+    padding: 2px;
+}
+
+#form {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    /* This bit draws the box around it */
+    border: 1px solid grey;
+    border-radius: 10px;
+
+    /* I've used padding so you can see the edges of the elements. */
+    padding: 2px;
+    margin-bottom: 20px;
+    width: 25%;
+}
+
+/* .btn-primary:not([disabled]):not(.disabled).active .btnSearch,
+.btn-primary:not([disabled]):not(.disabled):active .btnSearch,
+.btn-primary:not([disabled]):not(.disabled).hover .btnSearch,
+.btn-primary:not([disabled]):not(.disabled).btnSearch:hover {
+    background-color: transparent;
+} */
+
+.teks-heading {
+    margin-top: -10px;
+}
+
+.table-user {
+    margin-top: 13px;
+    border: 2px solid rgba(133, 130, 130, .5);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.tambah-peserta {
+    color: #38A5AD;
+}
+
+.tambah-peserta:hover {
+    color: #38A5AD;
+}
+
+#shorting {
+    margin-bottom: 10px;
+}
+
+#form-select {
+    width: 25%;
+}

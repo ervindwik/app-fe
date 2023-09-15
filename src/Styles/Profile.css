@@ -1,0 +1,155 @@
+.header-profile {
+  margin-top: 100px;
+}
+
+.box-profile {
+  width: 1040px;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+}
+
+.box-course {
+  width: 500px;
+  background-color: #38a5ad !important ;
+  border-radius: 25px 25px 25px 25px;
+  position: relative;
+}
+.css-borderImg {
+  border: 4px solid #eee;
+  background-color: #eee;
+  margin-top: 25px;
+  margin-left: 40px;
+  width: 224px;
+  height: 224px;
+}
+.css-borderDesc {
+  margin-top: 25px;
+}
+
+.css-borderDesc > h2 {
+  text-align: center;
+}
+.css-borderDesc > h3 {
+  text-align: center;
+}
+.css-borderDesc > p {
+  text-align: justify;
+}
+.css-img {
+  padding: 2px;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  box-shadow: 0px -2px 0px 3px #fff;
+}
+
+.item-course {
+  line-height: 242.05px;
+  color: #fff;
+  font-size: 200px;
+  margin-left: 100px;
+}
+
+.courseIcon {
+  position: absolute;
+  width: 30%;
+}
+
+.startIcon{
+  position: absolute;
+  width: 20%;
+  top: 60px;
+  left: 24px;
+}
+
+.box-course > h1{
+  color: #fff;
+  font-size: 70px;
+}
+
+.line-pembatas{
+  border: 3px solid #000 !important;
+  opacity: 50;
+}
+
+#card-courses{
+  margin-top: 30px !important;
+  margin-left: 20px;
+
+}
+
+a:link { text-decoration: none; 
+color: #000;}
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+.card-text > span {
+  opacity: 0.5;
+  font-size: 22px;
+}
+
+@media (min-width: 992px) {
+  .box-profile {
+    height: 430px;
+    width: 1040px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .css-img {
+    padding: 2px;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    box-shadow: 0px -2px 0px 3px #fff;
+  }
+
+  .css-borderImg {
+    border: 4px solid #eee;
+    background-color: #eee;
+    margin-top: 45px;
+    margin-left: 25px;
+    width: 324px;
+    height: 324px;
+  }
+
+  .css-borderDesc {
+    margin-top: 80px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .css-borderDesc > h2 {
+    text-align: left;
+  }
+  .css-borderDesc > h3 {
+    text-align: left;
+  }
+
+  .startIcon{
+    position: absolute;
+    width: 20%;
+    top: 90px;
+    left: 30px;
+  }
+
+  .item-course {
+    line-height: 242.05px;
+    color: #fff;
+    font-size: 200px;
+    margin-left: 200px;
+  }
+
+  .box-course > h1{
+    color: #fff;
+    font-size: 70px;
+    margin-left: 100px;
+  }
+  
+  
+}

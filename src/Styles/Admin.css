@@ -1,0 +1,82 @@
+main {
+    width: 100%;
+    padding: 20px;
+}
+
+.sidebarAdmin {
+    background: #4E4E4E;
+    color: #fff;
+    position: fixed;
+    height: 100%;
+    width: 270px;
+    transition: all 0.5s;
+    margin-top: 77px;
+}
+
+.top_section {
+    display: flex;
+    align-items: center;
+    padding: 20px 15px;
+}
+
+.name {
+    font-size: 100%;
+    margin-top: 6px;
+    margin-left: 5px;
+}
+
+.name-admin {
+    margin-top: -3px;
+    margin-left: 5px;
+}
+
+.link {
+    display: flex;
+    color: #fff;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+}
+
+.link:hover {
+    background: #38A5AD;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.active {
+    background: #38A5AD;
+    color: #fff;
+}
+
+.icon,
+.link_text {
+    font-size: 20px;
+}
+
+.navbar-admin {
+    background-color: #38A5AD;
+    position: fixed;
+    width: 100%;
+}
+
+.img-profileAdmin {
+    display: flex;
+    justify-content: center;
+    border-radius: 100% !important;
+    overflow: hidden;
+    border: 2px solid #fff;
+    height: 3.5em;
+
+}
+
+.img-profileAdmin>img {
+    height: 3.5em;
+    width: 3.5em;
+}
+
+.users-table-home {
+    border: 3px solid rgba(133, 130, 130, .5);
+    padding: 10px;
+    border-radius: 20px;
+}

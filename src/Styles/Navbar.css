@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.navbar{
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+.searchBar{
+    flex-grow:2;
+    width: 130px !important;
+    /* And hide the input's outline, so the form looks like the outline */
+    border:none !important;
+}
+
+#drop{
+  background-color: #fff;
+  border-color: #fff;
+}
+.logo{
+  width: 15%;
+}
+
+.nav-link.btn{
+  margin-top: 15px;
+}
+
+.form {
+    /* This bit sets up the horizontal layout */
+    display:flex;
+    flex-direction:row;
+    margin: 0;
+    /* This bit draws the box around it */
+    border:1px solid grey;
+    border-radius: 15px;
+  
+    /* I've used padding so you can see the edges of the elements. */
+    padding:2px;
+  }
+  
+ 
+  
+  input:focus, input.form-control:focus {
+    /* removing the input focus blue box. Put this on the form if you like. */
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+  
+  .buttonSearch{
+    /* Just a little styling to make it pretty */
+   background-color: #fff !important;
+   border: none !important;
+   padding: 0 !important
+  }
+
+  .oldGreen{
+    background-color: #38A5AD !important;
+  }
+  @media (min-width: 1024px) {
+    .searchBar{
+      width: 250px !important;
+    }
+
+    .form{
+      margin-left: 5px;
+    }
+    .logo{
+      width: 5.5%;
+    }
+
+    .nav-link{
+      margin-left: 24px;
+    }
+  
+    .nav-link.btn{
+      margin-top: 0;
+    }
+  }
